@@ -1,0 +1,15 @@
+1. Use click package to manage CLI.
+2. Define option for reading the HTML parsing the metadata to JSON.
+3. Define option for writing the metadata from JSON to the photos.
+
+
+Some examples
+
+> fbfix read -f /path/to/file.html -o /path/to/file.json
+Reads the single file.html and outputs metadata to file.json
+
+> fbfix read -d /path/to/html_dir/ -o /path/to/file.json
+Reads all html files in directory and outputs metadata to file.json
+
+> fbfix write /path/to/file.json -d /path/to/photo_dir/
+Applies provided metadata in file.json as EXIF to photos in photo_dir
