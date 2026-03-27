@@ -5,11 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debugger: Current File",
+            "name": "Python Debugger: Current File w/ 1 arg",
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "args": ["\\\\10.137.1.11\\home\\backups\\Facebook Archive\\posts\\album\\0.html"],
         },
         {
             "name": "Python Debugger: Current File with Arguments",
